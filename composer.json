@@ -1,0 +1,22 @@
+{
+  "name": "gpweins/team-contrib",
+  "description": "Basic structure and scripts to setup a project with tools to enforce clean code.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gustavo P Weinschutz",
+      "email": "gpweins@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev": {
+    "squizlabs/php_codesniffer": "~2.0@dev",
+    "phpmd/phpmd": "@stable"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "bash contrib/setup.sh"
+    ]
+  }
+}
