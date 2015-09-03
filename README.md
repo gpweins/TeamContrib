@@ -1,6 +1,6 @@
 # Team Contrib
 
-This repository is is intended to make the process of reviewing teammates code less error-prone, 
+This repository is intended to make the process of reviewing teammates code less error-prone, 
 using automated tools to check and help to correct common mistakes.
 
 Based on this [blog post](http://tech.zumba.com/2014/04/14/control-code-quality/) by Chris Saylor.
