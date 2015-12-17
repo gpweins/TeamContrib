@@ -16,7 +16,16 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "bash contrib/setup.sh"
+      "bash team-contrib"
+    ],
+    "post-update-cmd": [
+      "bash team-contrib"
     ]
-  }
+  },
+  "config": {
+      "bin-dir": "./"
+  },
+  "bin": [
+    "team-contrib"
+  ]
 }

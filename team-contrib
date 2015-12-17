@@ -1,0 +1,5 @@
+#!/bin/sh
+
+BASEDIR=`php -r "echo dirname(realpath('$0'));"`
+cp $BASEDIR/contrib/pre-commit .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
