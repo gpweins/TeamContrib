@@ -4,10 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c267ae4cc64d1fd6bfd7427d7173260a",
-    "content-hash": "e3c84648f2c322be9bf908d5d423b18b",
-    "packages": [],
-    "packages-dev": [
+    "hash": "f74097f78ddb4b0f53680e479ee48758",
+    "content-hash": "f062c2b26c893433f125eab59dcf73b8",
+    "packages": [
         {
             "name": "pdepend/pdepend",
             "version": "2.2.2",
@@ -246,12 +245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "d5c9e494f0bcd2926fff0c31ad2f7d0fb5d94955"
+                "reference": "8f7d38f9c5e82a6d0dfe5d13abd97b2345826e38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/d5c9e494f0bcd2926fff0c31ad2f7d0fb5d94955",
-                "reference": "d5c9e494f0bcd2926fff0c31ad2f7d0fb5d94955",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/8f7d38f9c5e82a6d0dfe5d13abd97b2345826e38",
+                "reference": "8f7d38f9c5e82a6d0dfe5d13abd97b2345826e38",
                 "shasum": ""
             },
             "require": {
@@ -300,7 +299,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-05 11:09:21"
+            "time": "2015-12-18 17:02:00"
         },
         {
             "name": "symfony/filesystem",
@@ -308,12 +307,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "40ce10a959a67ec1db818ee3947ec474036eeb43"
+                "reference": "a7ad724530a764d70c168d321ac226ba3d2f10fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/40ce10a959a67ec1db818ee3947ec474036eeb43",
-                "reference": "40ce10a959a67ec1db818ee3947ec474036eeb43",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/a7ad724530a764d70c168d321ac226ba3d2f10fc",
+                "reference": "a7ad724530a764d70c168d321ac226ba3d2f10fc",
                 "shasum": ""
             },
             "require": {
@@ -349,9 +348,10 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-05 11:09:21"
+            "time": "2015-12-22 10:25:57"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
