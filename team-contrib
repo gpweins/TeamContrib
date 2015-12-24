@@ -6,7 +6,7 @@ if [ ! -d ./contrib ]
         mkdir ./contrib
         mkdir ./contrib/phpcs
         cp $BASEDIR/contrib/phpcs/*.* ./contrib/phpcs/
-        mkdir ./contrib/phpcs/phpmd
+        mkdir ./contrib/phpmd
         cp $BASEDIR/contrib/phpmd/*.* ./contrib/phpmd/
 fi
 
