@@ -38,7 +38,7 @@ then
     ./vendor/bin/phpcs --standard=./contrib/phpcs/teamcontrib.xml --encoding=utf-8 -n -p $FILES
     if [ $? != 0 ]
     then
-        echo "Fix the error before commit."
+        echo "Please, fix these error(s) before commit."
         exit 1
     fi
 
@@ -49,8 +49,7 @@ then
         ./vendor/bin/phpmd $PROJECT/$FILE text ./contrib/phpmd/teamcontrib.xml
         if [ $? != 0 ]
         then
-            echo "Fix the error before commit."
-            exit 1
+            echo "Please verify this warnings to avoid creating messed up code! :)"
         fi
     done
 fi

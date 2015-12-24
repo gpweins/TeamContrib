@@ -1,5 +1,12 @@
 #!/bin/sh
 
 BASEDIR=`php -r "echo dirname(realpath('$0'));"`
+if [ ! -d ./contrib ]
+    then
+        mkdir ./contrib
+        cp $BASEDIR/contrib/phpcs ./contrib/phpcs
+        cp $BASEDIR/contrib/phpmd ./contrib/phpmd
+fi
+
 cp $BASEDIR/contrib/pre-commit .git/hooks/pre-commit
 chmod +x .git/hooks/pre-commit
