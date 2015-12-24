@@ -5,9 +5,9 @@ if [ ! -d ./contrib ]
     then
         mkdir ./contrib
         mkdir ./contrib/phpcs
-        cp $BASEDIR/contrib/phpcs/*.* ./contrib/phpcs
+        cp $BASEDIR/contrib/phpcs/*.* ./contrib/phpcs/
         mkdir ./contrib/phpcs/phpmd
-        cp $BASEDIR/contrib/phpmd/*.* ./contrib/phpmd
+        cp $BASEDIR/contrib/phpmd/*.* ./contrib/phpmd/
 fi
 
 cp $BASEDIR/contrib/pre-commit .git/hooks/pre-commit
